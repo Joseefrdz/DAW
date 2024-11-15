@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: rgb(210, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::placeholder{
+    color: rgb(210, 210, 210); 
+}
+
+h1{
+    font-size: 4vh;
+    margin-left: 5vh;
+    margin-top: 1vh;
+}
+h2{
+    margin-left: 1vh;
+    font-size: 3vh;
+}
+.content{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+                                /* ................... B L O Q U E 1 .................... */
+.block1{
+    padding: 1%;
+    font-size: 2vh;
+    background-color: rgb(60, 60, 60);
+    border: 3px solid rgb(80, 80, 80);
+    border-radius: 20px;
+    width: 110vh;
+    height: 43vh;
+    margin-left: 5vh;
+    margin-right: auto;
+}
+
+.form{
+    font-size: 2vh;
+    display:flexbox;
+}
+
+ #prioridad{                                           /*  SELECT  */
+    background-color: rgb(120, 120, 120);
+    color: rgb(210, 210, 210);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 16px;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+
+.input{                                           /*  TODOS LOS INPUTS  */
+    background-color: rgb(120, 120, 120);
+    color: rgb(210, 210, 210);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 16px;
+    width: 90%;
+    height: 4.5vh;
+    margin-bottom: 2vh;
+    padding-left: 10px;
+}
+                                /* ................... B L O Q U E 2 .................... */
+.block2{
+    padding: 1%;
+    font-size: 2vh;
+    background-color: rgb(60, 60, 60);
+    border: 3px solid rgb(80, 80, 80);
+    border-radius: 20px;
+    width: 74vh;
+    height: 43vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.top{
+    display: flex;
+    height: auto;
+}
+
+#filtro{                                              /*  SELECT  */
+    background-color: rgb(120, 120, 120);
+    color: rgb(210, 210, 210);
+    font-weight:bold;
+    font-size: 2vh;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 16px;
+    margin-bottom: 1vh;
+    margin-left: 10vw;
+}
+
+.list{                                              /*  LISTA TAREAS  */
+    font-size: 2vh;
+    height: 85%;
+    max-height:85%;
+    min-width: 69vh;
+    margin: 1vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+      }
+    
+    &::-webkit-scrollbar-track {
+        background: rgb(35, 35, 35); 
+        border-radius: 4px;
+
+      }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 4px;
+      }
+}
+                                /* ................... B L O Q U E 3 .................... */
+.task{
+    height: 45vh;
+    margin-top: 1vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#tareas{
+    margin-left: 5vh;
+}
+
+.card{
+    max-width: fit-content;
+    margin-left: 1vh;
+    margin-right: 4vh;
+}
+
+.card-img-top{
+    scale: 0.7;
+    max-height: 29vh;
+    min-height: 29vh;
+    margin-bottom: -40px;
+}
